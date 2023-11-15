@@ -1,0 +1,74 @@
+Ejercicio 10
+Algoritmo ejercicio10
+	definir a Como Real
+	leer a
+	Si a>=0 y a<14 Entonces
+		escribir "deficiente"
+	SiNo
+		si a>=14 y a<16 Entonces
+			escribir "Regular"
+		SiNo
+			si a>=16 y a<18 Entonces
+				escribir " buena"
+			SiNo
+				si a>=18 y a<=20 Entonces
+					Escribir "sobresaliente"
+				FinSi
+			FinSi
+		FinSi
+	Fin Si
+FinAlgoritmo
+
+Ejercicio 11
+Algoritmo ejercicio11
+	definir a,b Como Real
+	Escribir "ingrese su peso en kg"
+	leer a
+	Escribir "ingrese su estatura en m"
+	leer b
+	c<-b*b
+	I<- a/c
+	Si i<18.5 Entonces
+		escribir "su IMC es " i " y su peso es bajo"
+	SiNo
+		si i>=18.5 y i<=24.9 Entonces
+			escribir "su IMC es " i " y su peso es normal"
+		SiNo
+			si i>=25 y i<=29.9 Entonces
+				escribir "su IMC es " i " y tiene un sobrepeso"
+			sino 
+				si i>=30 Entonces
+					escribir "su IMC es " i " y tiene obesidad"
+				FinSi
+			FinSi
+		FinSi
+	Fin Si
+	
+FinAlgoritmo
+
+Ejercicio12
+Algoritmo ejercicio12
+	definir a Como entero
+	escribir "Ingrese un numero entero"
+	leer a
+	b<-1
+	Repetir
+		z=b*a
+		escribir a " * " b " = " z
+		b=b+1
+	Hasta Que b>12
+
+FinAlgoritmo
+
+Ejercicio 13
+Algoritmo ejercicio13
+	definir a Como entero
+	escribir "Ingrese un numero entero"
+	leer a
+	Para i<-1 Hasta a Con Paso 1 Hacer
+		Para J <-1  Hasta a Con Paso 1 Hacer
+			escribir sin saltar "*"
+		Fin Para
+		escribir ""
+	Fin Para
+FinAlgoritmo
